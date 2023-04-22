@@ -1,0 +1,16 @@
+.not_found_pic{
+    width: 700px;
+    height: 700px;
+}
+
+.not_found_page{
+    margin-top: 80px;
+    margin-bottom: 150px;
+    margin-left: 350px;
+}
+
+@media(max-width:425px){
+    .not_found_page{
+        margin-left: 200px;
+    }
+}

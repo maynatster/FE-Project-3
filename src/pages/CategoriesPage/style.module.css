@@ -1,0 +1,32 @@
+.header{
+    width: 240px;
+    height: 52px;
+    margin-bottom: 81px;
+    margin-left: 31px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: normal;
+    color: black;
+}
+
+.categoryContainer{
+    width: 1378px;
+    height: 844px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 318px 318px 318px 318px;
+    grid-template-rows: 350px 350px;
+    column-gap: 35px;
+    row-gap: 101px;
+}
+
+@media (max-width: 425px){
+    .categoryContainer{
+        display: grid;
+        grid-template-columns: 318px 318px 318px;
+        grid-template-rows: 350px 350px;
+    }
+}

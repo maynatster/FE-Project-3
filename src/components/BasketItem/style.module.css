@@ -1,0 +1,98 @@
+.item_container{
+    padding: 40px 0 40px 0;
+    display: grid;
+    grid-template-columns: 193px 1fr auto auto 15px;
+    gap: 30px;
+    align-items: center;
+    border-top: 1px solid #A7A7A7;
+    border-bottom: 1px solid #A7A7A7;
+}
+
+.item_container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 13px;
+}
+
+.item_descr{
+    height: 167px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.btns_container{
+    width: 140px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn_style{
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.price_new{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.price_old{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-decoration-line: line-through;
+    color: #8B8B8B;
+}
+
+.oldAsRegular{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.delete_button{
+    align-self: flex-start;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.delete_button:hover,
+.delete_button:focus,
+.delete_button:active {
+  color: red;
+  font-weight: 800;
+  transition: 0.1s;
+}

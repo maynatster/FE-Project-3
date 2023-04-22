@@ -1,0 +1,113 @@
+.discount_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 476px;
+    background: linear-gradient(to right, #006300, #339933) ;
+    margin-bottom: 49px;
+    flex-wrap: wrap;
+}
+
+.gnome_pic{
+    width: 422px;
+    height: 422px;
+    margin-top: 27px;
+    margin-left: 91px;
+    margin-bottom: 27px;
+}
+
+.discount_input_wrapper{
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 44px;
+}
+
+.discount_title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 108px;
+    letter-spacing: normal;
+    color: white;
+    width: 585px;
+    height: 88px;
+    margin-bottom: 30.5px;
+}
+
+.discount_title2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: normal;
+    color: white;
+    margin-bottom: 46px;
+}
+
+.input_phone{
+    width: 473px;
+    height: 75.5px;
+    padding: 20px;
+    border: none;
+    border-radius: 25.15px;
+    background-color: white;
+    color: #6C6C6C;
+    margin-bottom: 30.5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+}
+
+.discount_button{
+    width: 473px;
+    height: 75.5px;
+    border: 2.4px solid white;
+    border-radius: 25.15px;
+    background-color: #339933;
+    color: white;
+    margin-bottom: 45.5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28.74px;
+    line-height: 34px;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.discount_button:hover,
+.discount_button:focus,
+.discount_button:active {
+    opacity: 0.8;
+    font-weight: 900;
+}
+
+@media (max-width: 425px){
+
+    .gnome_pic{
+        display: none;
+    }
+
+    .discount_wrapper{
+        justify-content: space-around;
+        width: 1150px;
+    }
+
+    .discount_input_wrapper{
+        align-items: center;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .discount_title{
+        width: 300px;
+    }
+}

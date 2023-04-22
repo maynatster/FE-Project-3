@@ -1,0 +1,134 @@
+.title{
+    width: 312px;
+    height: 52px;
+    margin-bottom: 16px;
+    margin-left: 31px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.03em;
+    color: black;
+}
+
+.wrapper{
+    width: 1380px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-bottom: 143px;
+}
+
+.item_container{
+    display: flex;
+    flex-direction: column;
+    width: 824px;
+}
+
+.order_input_container{
+    width: 496px;
+    height: 393px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    border: 2px solid black;
+    border-radius: 21px;
+    padding: 25px;
+}
+
+.discount_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.input_phone{
+    width: 446px;
+    height: 73px;
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    color: #929292;
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+}
+
+.order_button{
+    width: 446px;
+    height: 76px;
+    border: none;
+    border-radius: 17px;
+    background-color: #339933;
+    color: white;
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.order_button:hover,
+.order_button:focus,
+.order_button:active {
+    opacity: 0.8;
+    font-weight: 900;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link_style{
+    width: 173px;
+    margin-top: 16px;
+    margin-left: 650px;
+    margin-bottom: 34px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.link_style:hover,
+.link_style:focus,
+.link_style:active {
+  color: #339933;
+  transition: 0.1s;
+}
+
+.message{
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 26px;
+    color: #000000;
+}
+
+@media(max-width:425px){
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .order_input_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        align-self: center;
+    }
+
+}

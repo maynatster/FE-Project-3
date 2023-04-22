@@ -1,0 +1,30 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.item img{
+    border-radius: 13px;
+    box-shadow: 0 0 15px grey;
+    object-fit: cover;
+}
+
+.categories_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.categories_title:hover,
+.categories_title:focus,
+.categories_title:active {
+  color: #339933;
+  transition: 0.1s;
+}

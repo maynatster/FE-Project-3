@@ -1,0 +1,73 @@
+.block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    max-width: 1030px;
+    margin-top: 81px;
+    margin-left: 30px;
+    margin-bottom: 34px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.discount{
+    display: flex;
+    align-items: center;
+    gap: 39px;
+}
+
+.discount input{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 7px;
+}
+
+.sorted{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+
+}
+
+.block input{
+    width: 103px;
+    height: 42px;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    padding: 10px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #ACACAC;
+}
+
+.block select{
+    width: 219px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    padding: 10px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #797979;
+}

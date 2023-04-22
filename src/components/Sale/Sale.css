@@ -1,0 +1,20 @@
+.sale-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.03em;
+    color: black;
+    margin-bottom: 21px;
+    margin-left: 30px;
+}
+
+.sale-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 366px;
+    gap: 35px;
+    max-width: 1024px;
+    margin-bottom: 171px;
+    margin-left: 30px;
+}
